@@ -1,0 +1,10 @@
+
+## Build generated
+build/
+DerivedData/
+
+## pods
+Pods/
+
+## userdata
+xcuserdata/

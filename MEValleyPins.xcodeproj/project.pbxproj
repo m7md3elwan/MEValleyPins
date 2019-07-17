@@ -31,6 +31,7 @@
 		3E95EF1122DE99D7000F7D3E /* PaginatedDataLoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1022DE99D7000F7D3E /* PaginatedDataLoadState.swift */; };
 		3E95EF1322DEA9D9000F7D3E /* Dispatch+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1222DEA9D9000F7D3E /* Dispatch+helpers.swift */; };
 		3E95EF1522DEC0C4000F7D3E /* ImageAssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1422DEC0C4000F7D3E /* ImageAssetTests.swift */; };
+		3E95EF1722DED610000F7D3E /* MEDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1622DED610000F7D3E /* MEDownloadTask.swift */; };
 		3EAB79F422DA6A70003AD17A /* MECacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB79F322DA6A70003AD17A /* MECacheTests.swift */; };
 		3EAB7A0B22DA825B003AD17A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB7A0A22DA825B003AD17A /* Media.xcassets */; };
 		3EAB7A0F22DA82F3003AD17A /* MECachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB7A0E22DA82F3003AD17A /* MECachable.swift */; };
@@ -119,6 +120,7 @@
 		3E95EF1022DE99D7000F7D3E /* PaginatedDataLoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedDataLoadState.swift; sourceTree = "<group>"; };
 		3E95EF1222DEA9D9000F7D3E /* Dispatch+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dispatch+helpers.swift"; sourceTree = "<group>"; };
 		3E95EF1422DEC0C4000F7D3E /* ImageAssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssetTests.swift; sourceTree = "<group>"; };
+		3E95EF1622DED610000F7D3E /* MEDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadTask.swift; sourceTree = "<group>"; };
 		3EAB79F322DA6A70003AD17A /* MECacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECacheTests.swift; sourceTree = "<group>"; };
 		3EAB7A0A22DA825B003AD17A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		3EAB7A0E22DA82F3003AD17A /* MECachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECachable.swift; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 			children = (
 				3EB5178822DA423E00CBEE40 /* MEDiscardableData.swift */,
 				3E8739BB22DC143300F75825 /* MEDownloadRequest.swift */,
+				3E95EF1622DED610000F7D3E /* MEDownloadTask.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -754,6 +757,7 @@
 				3E8739BC22DC143300F75825 /* MEDownloadRequest.swift in Sources */,
 				3E8739B722DC132B00F75825 /* MEDownloadable.swift in Sources */,
 				3E8739C322DC500D00F75825 /* MEValleyLoader.swift in Sources */,
+				3E95EF1722DED610000F7D3E /* MEDownloadTask.swift in Sources */,
 				3EAB7A0F22DA82F3003AD17A /* MECachable.swift in Sources */,
 				3E8739C122DC4E9700F75825 /* MEDownloader.swift in Sources */,
 				3EB5178722DA3E1200CBEE40 /* MECache.swift in Sources */,

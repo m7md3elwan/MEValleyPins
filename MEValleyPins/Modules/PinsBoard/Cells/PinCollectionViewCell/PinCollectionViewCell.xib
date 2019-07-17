@@ -42,6 +42,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" name="linkColor" catalog="System" colorSpace="catalog"/>
@@ -55,6 +59,9 @@
                             <constraint firstAttribute="height" constant="60" id="otb-7h-ij3"/>
                             <constraint firstItem="hE1-p9-Y7k" firstAttribute="centerY" secondItem="PFV-bB-s4t" secondAttribute="centerY" id="xY4-Py-tdS"/>
                         </constraints>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <color key="backgroundColor" red="0.40784313729999999" green="0.94117647059999998" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </variation>
                     </view>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="like" translatesAutoresizingMaskIntoConstraints="NO" id="lvE-Sr-IBb">
                         <rect key="frame" x="237" y="8" width="20" height="20"/>

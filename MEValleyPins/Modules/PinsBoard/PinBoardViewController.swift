@@ -92,6 +92,9 @@ extension PinBoardViewController : UICollectionViewDelegate , UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return CGSize(width: self.view.frame.width / 2, height: self.view.frame.width / 2)
+        }
         return CGSize(width: self.view.frame.width, height: self.view.frame.width)
     }
     

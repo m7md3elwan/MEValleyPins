@@ -65,6 +65,8 @@ extension MEDownloader :URLSessionDataDelegate,URLSessionDelegate {
         } else{
             downloadTask.taskSuccessed(data: downloadTask.data)
         }
+        
+        removeTask(task: downloadTask)
     }
 
 }

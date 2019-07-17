@@ -13,7 +13,7 @@ open class MECache: NSObject, MECachable {
     
     // MARK:- Properties
     private var cache = NSCache<NSString, MEDiscardableData>()
-    var cacheLimit: Int = 10 {
+    var cacheLimit: Int = 100 {
         didSet {
             setCacheMaxLimit(cacheLimit: cacheLimit)
         }

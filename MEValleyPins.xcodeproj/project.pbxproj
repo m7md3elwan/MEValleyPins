@@ -30,6 +30,7 @@
 		3E95EF0E22DE9287000F7D3E /* PinsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF0D22DE9287000F7D3E /* PinsService.swift */; };
 		3E95EF1122DE99D7000F7D3E /* PaginatedDataLoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1022DE99D7000F7D3E /* PaginatedDataLoadState.swift */; };
 		3E95EF1322DEA9D9000F7D3E /* Dispatch+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1222DEA9D9000F7D3E /* Dispatch+helpers.swift */; };
+		3E95EF1522DEC0C4000F7D3E /* ImageAssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1422DEC0C4000F7D3E /* ImageAssetTests.swift */; };
 		3EAB79F422DA6A70003AD17A /* MECacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB79F322DA6A70003AD17A /* MECacheTests.swift */; };
 		3EAB7A0B22DA825B003AD17A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB7A0A22DA825B003AD17A /* Media.xcassets */; };
 		3EAB7A0F22DA82F3003AD17A /* MECachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB7A0E22DA82F3003AD17A /* MECachable.swift */; };
@@ -117,6 +118,7 @@
 		3E95EF0D22DE9287000F7D3E /* PinsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsService.swift; sourceTree = "<group>"; };
 		3E95EF1022DE99D7000F7D3E /* PaginatedDataLoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedDataLoadState.swift; sourceTree = "<group>"; };
 		3E95EF1222DEA9D9000F7D3E /* Dispatch+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dispatch+helpers.swift"; sourceTree = "<group>"; };
+		3E95EF1422DEC0C4000F7D3E /* ImageAssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssetTests.swift; sourceTree = "<group>"; };
 		3EAB79F322DA6A70003AD17A /* MECacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECacheTests.swift; sourceTree = "<group>"; };
 		3EAB7A0A22DA825B003AD17A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		3EAB7A0E22DA82F3003AD17A /* MECachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECachable.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 			children = (
 				3EB5175822DA3DC200CBEE40 /* MEValleyPinsTests.swift */,
 				3EB5175A22DA3DC200CBEE40 /* Info.plist */,
+				3E95EF1422DEC0C4000F7D3E /* ImageAssetTests.swift */,
 			);
 			path = MEValleyPinsTests;
 			sourceTree = "<group>";
@@ -738,6 +741,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E95EF1522DEC0C4000F7D3E /* ImageAssetTests.swift in Sources */,
 				3EB5175922DA3DC200CBEE40 /* MEValleyPinsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

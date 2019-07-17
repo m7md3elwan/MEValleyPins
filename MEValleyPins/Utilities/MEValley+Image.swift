@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-enum ImageAsset: String {
+enum ImageAsset: String, CaseIterable {
     case like = "like"
     case unlike = "unlike"
     case imagePlaceholder = "image-placeholder"

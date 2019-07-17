@@ -10,11 +10,26 @@
 		167CF7492A397DE06B39FE29 /* Pods_MEValleyLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDD1A6AEF1B6CE12545C1E2 /* Pods_MEValleyLoader.framework */; };
 		2F6507D29DB094E92254234A /* Pods_MEValleyLoaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2B599566B9F51080AB59AC /* Pods_MEValleyLoaderTests.framework */; };
 		3E6CDDEC22DD4825003284AA /* PinBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDDEB22DD4825003284AA /* PinBoardViewController.swift */; };
+		3E6CDDF322DD4BDA003284AA /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDDF222DD4BDA003284AA /* Links.swift */; };
+		3E6CDDF522DD4BF6003284AA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDDF422DD4BF6003284AA /* Category.swift */; };
+		3E6CDDF722DD4C1E003284AA /* ImageUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDDF622DD4C1E003284AA /* ImageUrls.swift */; };
+		3E6CDDF922DD4C31003284AA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDDF822DD4C31003284AA /* User.swift */; };
+		3E6CDDFD22DD5410003284AA /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDDFC22DD5410003284AA /* Pin.swift */; };
+		3E6CDE0522DD5825003284AA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDE0222DD5825003284AA /* UIColorExtension.swift */; };
+		3E6CDE0622DD5825003284AA /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDE0322DD5825003284AA /* UIColorInputError.swift */; };
+		3E6CDE0722DD5825003284AA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CDE0422DD5825003284AA /* StringExtension.swift */; };
 		3E8739B722DC132B00F75825 /* MEDownloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8739B622DC132B00F75825 /* MEDownloadable.swift */; };
 		3E8739BC22DC143300F75825 /* MEDownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8739BB22DC143300F75825 /* MEDownloadRequest.swift */; };
 		3E8739BE22DC1CFB00F75825 /* MEDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8739BD22DC1CFB00F75825 /* MEDownloaderTests.swift */; };
 		3E8739C122DC4E9700F75825 /* MEDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8739B922DC135300F75825 /* MEDownloader.swift */; };
 		3E8739C322DC500D00F75825 /* MEValleyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8739C222DC500D00F75825 /* MEValleyLoader.swift */; };
+		3E95EF0622DE7144000F7D3E /* PinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF0422DE7144000F7D3E /* PinCollectionViewCell.swift */; };
+		3E95EF0722DE7144000F7D3E /* PinCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E95EF0522DE7144000F7D3E /* PinCollectionViewCell.xib */; };
+		3E95EF0922DE774A000F7D3E /* MEValley+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF0822DE774A000F7D3E /* MEValley+Image.swift */; };
+		3E95EF0B22DE7AC8000F7D3E /* UIView+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF0A22DE7AC8000F7D3E /* UIView+cornerRadius.swift */; };
+		3E95EF0E22DE9287000F7D3E /* PinsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF0D22DE9287000F7D3E /* PinsService.swift */; };
+		3E95EF1122DE99D7000F7D3E /* PaginatedDataLoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1022DE99D7000F7D3E /* PaginatedDataLoadState.swift */; };
+		3E95EF1322DEA9D9000F7D3E /* Dispatch+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95EF1222DEA9D9000F7D3E /* Dispatch+helpers.swift */; };
 		3EAB79F422DA6A70003AD17A /* MECacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB79F322DA6A70003AD17A /* MECacheTests.swift */; };
 		3EAB7A0B22DA825B003AD17A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB7A0A22DA825B003AD17A /* Media.xcassets */; };
 		3EAB7A0F22DA82F3003AD17A /* MECachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB7A0E22DA82F3003AD17A /* MECachable.swift */; };
@@ -82,11 +97,26 @@
 /* Begin PBXFileReference section */
 		2E6E65A8AB4FF63CBACFFF5D /* Pods-MEValleyPins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEValleyPins.debug.xcconfig"; path = "Target Support Files/Pods-MEValleyPins/Pods-MEValleyPins.debug.xcconfig"; sourceTree = "<group>"; };
 		3E6CDDEB22DD4825003284AA /* PinBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinBoardViewController.swift; sourceTree = "<group>"; };
+		3E6CDDF222DD4BDA003284AA /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		3E6CDDF422DD4BF6003284AA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3E6CDDF622DD4C1E003284AA /* ImageUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrls.swift; sourceTree = "<group>"; };
+		3E6CDDF822DD4C31003284AA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3E6CDDFC22DD5410003284AA /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		3E6CDE0222DD5825003284AA /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3E6CDE0322DD5825003284AA /* UIColorInputError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorInputError.swift; sourceTree = "<group>"; };
+		3E6CDE0422DD5825003284AA /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		3E8739B622DC132B00F75825 /* MEDownloadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadable.swift; sourceTree = "<group>"; };
 		3E8739B922DC135300F75825 /* MEDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloader.swift; sourceTree = "<group>"; };
 		3E8739BB22DC143300F75825 /* MEDownloadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadRequest.swift; sourceTree = "<group>"; };
 		3E8739BD22DC1CFB00F75825 /* MEDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloaderTests.swift; sourceTree = "<group>"; };
 		3E8739C222DC500D00F75825 /* MEValleyLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEValleyLoader.swift; sourceTree = "<group>"; };
+		3E95EF0422DE7144000F7D3E /* PinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E95EF0522DE7144000F7D3E /* PinCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinCollectionViewCell.xib; sourceTree = "<group>"; };
+		3E95EF0822DE774A000F7D3E /* MEValley+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MEValley+Image.swift"; sourceTree = "<group>"; };
+		3E95EF0A22DE7AC8000F7D3E /* UIView+cornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+cornerRadius.swift"; sourceTree = "<group>"; };
+		3E95EF0D22DE9287000F7D3E /* PinsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsService.swift; sourceTree = "<group>"; };
+		3E95EF1022DE99D7000F7D3E /* PaginatedDataLoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedDataLoadState.swift; sourceTree = "<group>"; };
+		3E95EF1222DEA9D9000F7D3E /* Dispatch+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dispatch+helpers.swift"; sourceTree = "<group>"; };
 		3EAB79F322DA6A70003AD17A /* MECacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECacheTests.swift; sourceTree = "<group>"; };
 		3EAB7A0A22DA825B003AD17A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		3EAB7A0E22DA82F3003AD17A /* MECachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECachable.swift; sourceTree = "<group>"; };
@@ -169,6 +199,7 @@
 		3E6CDDEA22DD4808003284AA /* PinsBoard */ = {
 			isa = PBXGroup;
 			children = (
+				3E95EF0222DE7111000F7D3E /* Cells */,
 				3E6CDDEB22DD4825003284AA /* PinBoardViewController.swift */,
 			);
 			path = PinsBoard;
@@ -188,8 +219,35 @@
 		3E6CDDF122DD4872003284AA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3E6CDDFC22DD5410003284AA /* Pin.swift */,
+				3E6CDDF222DD4BDA003284AA /* Links.swift */,
+				3E6CDDF422DD4BF6003284AA /* Category.swift */,
+				3E6CDDF622DD4C1E003284AA /* ImageUrls.swift */,
+				3E6CDDF822DD4C31003284AA /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3E6CDDFE22DD56A8003284AA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3E95EF0F22DE99C2000F7D3E /* UtilityModels */,
+				3E95EF0822DE774A000F7D3E /* MEValley+Image.swift */,
+				3E95EF0A22DE7AC8000F7D3E /* UIView+cornerRadius.swift */,
+				3E6CDE0122DD5825003284AA /* HEXColor */,
+				3E95EF1222DEA9D9000F7D3E /* Dispatch+helpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3E6CDE0122DD5825003284AA /* HEXColor */ = {
+			isa = PBXGroup;
+			children = (
+				3E6CDE0222DD5825003284AA /* UIColorExtension.swift */,
+				3E6CDE0322DD5825003284AA /* UIColorInputError.swift */,
+				3E6CDE0422DD5825003284AA /* StringExtension.swift */,
+			);
+			path = HEXColor;
 			sourceTree = "<group>";
 		};
 		3E8739BF22DC4DD000F75825 /* MainComponents */ = {
@@ -200,6 +258,39 @@
 				3E8739B922DC135300F75825 /* MEDownloader.swift */,
 			);
 			path = MainComponents;
+			sourceTree = "<group>";
+		};
+		3E95EF0222DE7111000F7D3E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E95EF0322DE7136000F7D3E /* PinCollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3E95EF0322DE7136000F7D3E /* PinCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E95EF0422DE7144000F7D3E /* PinCollectionViewCell.swift */,
+				3E95EF0522DE7144000F7D3E /* PinCollectionViewCell.xib */,
+			);
+			path = PinCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3E95EF0C22DE926E000F7D3E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3E95EF0D22DE9287000F7D3E /* PinsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3E95EF0F22DE99C2000F7D3E /* UtilityModels */ = {
+			isa = PBXGroup;
+			children = (
+				3E95EF1022DE99D7000F7D3E /* PaginatedDataLoadState.swift */,
+			);
+			path = UtilityModels;
 			sourceTree = "<group>";
 		};
 		3EAB7A0C22DA82D2003AD17A /* Protocols */ = {
@@ -249,8 +340,10 @@
 			children = (
 				3EB5174322DA3DC100CBEE40 /* AppDelegate.swift */,
 				3E6CDDE922DD47FF003284AA /* Modules */,
+				3E95EF0C22DE926E000F7D3E /* Services */,
 				3E6CDDF122DD4872003284AA /* Models */,
 				3E6CDDEE22DD4838003284AA /* Resources */,
+				3E6CDDFE22DD56A8003284AA /* Utilities */,
 			);
 			path = MEValleyPins;
 			sourceTree = "<group>";
@@ -461,6 +554,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E95EF0722DE7144000F7D3E /* PinCollectionViewCell.xib in Resources */,
 				3EB5174E22DA3DC200CBEE40 /* LaunchScreen.storyboard in Resources */,
 				3EB5174B22DA3DC200CBEE40 /* Assets.xcassets in Resources */,
 				3EB5174922DA3DC100CBEE40 /* Main.storyboard in Resources */,
@@ -621,8 +715,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E95EF0922DE774A000F7D3E /* MEValley+Image.swift in Sources */,
+				3E6CDDFD22DD5410003284AA /* Pin.swift in Sources */,
 				3E6CDDEC22DD4825003284AA /* PinBoardViewController.swift in Sources */,
+				3E6CDE0722DD5825003284AA /* StringExtension.swift in Sources */,
+				3E6CDDF322DD4BDA003284AA /* Links.swift in Sources */,
+				3E6CDE0522DD5825003284AA /* UIColorExtension.swift in Sources */,
+				3E95EF0622DE7144000F7D3E /* PinCollectionViewCell.swift in Sources */,
+				3E95EF0E22DE9287000F7D3E /* PinsService.swift in Sources */,
+				3E6CDE0622DD5825003284AA /* UIColorInputError.swift in Sources */,
+				3E6CDDF922DD4C31003284AA /* User.swift in Sources */,
+				3E95EF1122DE99D7000F7D3E /* PaginatedDataLoadState.swift in Sources */,
+				3E95EF0B22DE7AC8000F7D3E /* UIView+cornerRadius.swift in Sources */,
 				3EB5174422DA3DC100CBEE40 /* AppDelegate.swift in Sources */,
+				3E6CDDF522DD4BF6003284AA /* Category.swift in Sources */,
+				3E6CDDF722DD4C1E003284AA /* ImageUrls.swift in Sources */,
+				3E95EF1322DEA9D9000F7D3E /* Dispatch+helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,6 +869,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -815,6 +924,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -828,13 +938,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DRTN6B9Y6;
 				INFOPLIST_FILE = MEValleyPins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elwan.MEValleyPins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -848,13 +959,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DRTN6B9Y6;
 				INFOPLIST_FILE = MEValleyPins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elwan.MEValleyPins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -875,7 +987,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elwan.MEValleyPinsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEValleyPins.app/MEValleyPins";
 			};
@@ -897,7 +1009,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elwan.MEValleyPinsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEValleyPins.app/MEValleyPins";
 			};
@@ -928,7 +1040,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -959,7 +1071,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elwan.MEValleyLoader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -981,7 +1093,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elwan.MEValleyLoaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEValleyPins.app/MEValleyPins";
 			};
@@ -1002,7 +1114,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elwan.MEValleyLoaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEValleyPins.app/MEValleyPins";
 			};

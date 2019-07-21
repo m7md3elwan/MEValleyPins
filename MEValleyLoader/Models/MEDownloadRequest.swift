@@ -19,7 +19,7 @@ public class MEDownloadRequest {
     var successCompletion: SuccessCallback?
     var failureCompletion: FailureCallback?
     
-    private weak var task: MEDownloadTask?
+    weak var task: MEDownloadTask?
     
     init(task: MEDownloadTask) {
         self.task = task
